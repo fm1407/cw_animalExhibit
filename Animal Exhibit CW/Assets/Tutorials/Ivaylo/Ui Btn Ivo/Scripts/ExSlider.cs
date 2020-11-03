@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ExploderSlider : MonoBehaviour
+public class ExSlider : MonoBehaviour
 {
     Animator anim;
     public Slider slider;
