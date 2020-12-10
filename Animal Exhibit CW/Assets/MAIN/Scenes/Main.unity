@@ -1946,8 +1946,9 @@ MonoBehaviour:
   m_Text: "\rThis application will allow you to navigate and also interact with each
     of the models. In order to view each of the models, you will have to press the
     arrow button on the side to see the next model. You can also rotate the model
-    by using the slider below the model.\r You can also use the arrow keys to control
-    the character to move around the exhibition.\n"
+    by using the slider below the model.\r You can also use the arrow left '<' and
+    right '>' to rotate the character and also use spacebar to move forward so that
+    you can move around the exhibition."
 --- !u!222 &1221626466
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3052,6 +3053,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2063823181}
+        m_TargetAssemblyTypeName: UnityEngine.CanvasRenderer, UnityEngine
+        m_MethodName: Clear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 810236708}
+        m_TargetAssemblyTypeName: UnityEngine.CanvasRenderer, UnityEngine
+        m_MethodName: Clear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2063823180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3185,3 +3210,61 @@ Transform:
   m_Father: {fileID: 53673146}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.121, y: -54.355, z: -0.588}
+--- !u!1001 &701660565555367844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 395654040402469185, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_Name
+      value: Lego Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0004249033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08334977
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.005080029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99650735
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 9.562
+      objectReference: {fileID: 0}
+    - target: {fileID: 1024135623869692923, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.576
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 10f2bcbe81db5fb45aa93e84bfb8be89, type: 3}
