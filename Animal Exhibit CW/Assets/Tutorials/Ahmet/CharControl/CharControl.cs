@@ -12,9 +12,10 @@ public class CharControl : MonoBehaviour
     public float dec = 5.0f;
     public float rotation = 0.0f;
 
+
     void Start()
     {
-       
+
     }
     void Update()
     {
