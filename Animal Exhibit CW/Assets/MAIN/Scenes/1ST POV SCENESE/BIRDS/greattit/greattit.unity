@@ -966,6 +966,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &883908065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 738aa7bf6b5264fddb03ec573b96a8c1, type: 3}
+  m_PrefabInstance: {fileID: 516888046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &883908066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883908065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0e6d02dbf4d9847a0b92586a6e2245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1398405409}
 --- !u!1 &902739741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,7 +1731,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 902739742}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 360
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

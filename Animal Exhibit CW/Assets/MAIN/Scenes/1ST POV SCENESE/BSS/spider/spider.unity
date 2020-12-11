@@ -829,7 +829,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 739655854}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 360
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1994,6 +1994,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 49.759, y: -7.99, z: 28.225}
+--- !u!1 &1471767982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+  m_PrefabInstance: {fileID: 1110822699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1471767983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471767982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbafa25e94664142b588480f8eb8753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 405453674}
 --- !u!224 &1487129201 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1907357042410802211, guid: 772bc93483a824722999739b355c6e62, type: 3}

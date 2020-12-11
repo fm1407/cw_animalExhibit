@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40413565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+  m_PrefabInstance: {fileID: 1548082269459503994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &40413566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40413565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1018658f527e68543bf588c9551fda9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 750422695}
 --- !u!1 &85310710
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +910,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1988875237}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 360
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
