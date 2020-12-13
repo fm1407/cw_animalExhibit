@@ -19,7 +19,7 @@ public class CharControl_2 : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey("space"))
+        if (Input.GetKey("up"))
         {
             if (speed < maxSpeed)  //ACCELERATE
                 speed += acc;

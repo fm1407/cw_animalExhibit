@@ -283,7 +283,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 89013424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e0b5d30e86a6614390304eea1119bc9, type: 3}
+  m_Script: {fileID: 11500000, guid: ae82dea83bf565a46b0b65b4ccf8659b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235623593}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3f85838384df604c9e87dfc156bb217, type: 3}
   m_Name: 
@@ -1566,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.35
+      value: 5.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1606,15 +1606,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 60.355
+      value: 59.25654
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 103.92125
+      value: 70.34013
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 74.062096
+      value: 57.74116
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
       propertyPath: m_Name
@@ -2889,11 +2889,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2904,8 +2904,9 @@ MonoBehaviour:
     of the models. In order to view each of the models, you will have to press the
     arrow button on the side to see the next model. You can also rotate the model
     by using the slider below the model.\r You can also use the arrow left '<' and
-    right '>' to rotate the character and also use spacebar to move forward so that
-    you can move around the exhibition."
+    right '>' to rotate the character and also use '^' to move forward so that you
+    can move around the exhibition.\n\nAfter you close this message, please press
+    'G' on your keyboard to change the camera view to third person."
 --- !u!222 &1221626466
 CanvasRenderer:
   m_ObjectHideFlags: 0
