@@ -2429,6 +2429,7 @@ GameObject:
   - component: {fileID: 6877179904736613339}
   - component: {fileID: 7010659467783913551}
   - component: {fileID: 5029303599404817385}
+  - component: {fileID: 4608742011694514879}
   m_Layer: 0
   m_Name: collard dove sign
   m_TagString: Untagged
@@ -2436,6 +2437,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742011694514879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742011694514878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bac7fe032d1f478ca8e0b8197caaa43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742011757014649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2462,7 @@ GameObject:
   - component: {fileID: 6877179904531463964}
   - component: {fileID: 7010659467980696712}
   - component: {fileID: 5029303599207069486}
+  - component: {fileID: 4608742011757014650}
   m_Layer: 0
   m_Name: Megalodon sign
   m_TagString: Untagged
@@ -2456,6 +2470,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742011757014650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742011757014649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d47fce77ffb845fc8fb1047b48ac907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742011762203904
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,6 +2495,7 @@ GameObject:
   - component: {fileID: 6877179904543034469}
   - component: {fileID: 7010659467985723377}
   - component: {fileID: 5029303599216706647}
+  - component: {fileID: 4608742011762203905}
   m_Layer: 0
   m_Name: Snake sign
   m_TagString: Untagged
@@ -2476,6 +2503,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742011762203905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742011762203904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dceabecab0cf44a949c2b8a86ad6f03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742011955055204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,6 +2528,7 @@ GameObject:
   - component: {fileID: 6877179904467622657}
   - component: {fileID: 7010659467507648661}
   - component: {fileID: 5029303599678001971}
+  - component: {fileID: 4608742011955055205}
   m_Layer: 0
   m_Name: Robin sign
   m_TagString: Untagged
@@ -2496,6 +2536,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742011955055205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742011955055204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f46c3ed6a0442a8855fb04102d01eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742012112317001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,6 +2561,7 @@ GameObject:
   - component: {fileID: 6877179904352385836}
   - component: {fileID: 7010659467664189624}
   - component: {fileID: 5029303599557587742}
+  - component: {fileID: 4608742012112317002}
   m_Layer: 0
   m_Name: great tit sign
   m_TagString: Untagged
@@ -2516,6 +2569,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742012112317002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742012112317001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5d2e8177baa48e5bf8f4a9ecd0e2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742012462358499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +2594,7 @@ GameObject:
   - component: {fileID: 6877179903826169478}
   - component: {fileID: 7010659468081437970}
   - component: {fileID: 5029303599039661748}
+  - component: {fileID: 4608742012462358500}
   m_Layer: 0
   m_Name: Ant sign
   m_TagString: Untagged
@@ -2536,6 +2602,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742012462358500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742012462358499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccce06374b86240f4830f74048511f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742012516032719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2549,6 +2627,7 @@ GameObject:
   - component: {fileID: 6877179903948665258}
   - component: {fileID: 7010659468067873342}
   - component: {fileID: 5029303599151806872}
+  - component: {fileID: 4608742012516032720}
   m_Layer: 0
   m_Name: Goldfish sign
   m_TagString: Untagged
@@ -2556,6 +2635,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742012516032720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742012516032719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8105e8f7e7e84561a521084d51d1947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742012810274052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2660,7 @@ GameObject:
   - component: {fileID: 6877179905785132129}
   - component: {fileID: 7010659466684950517}
   - component: {fileID: 5029303600453467219}
+  - component: {fileID: 4608742012810274053}
   m_Layer: 0
   m_Name: Dolphin sign
   m_TagString: Untagged
@@ -2576,6 +2668,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742012810274053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742012810274052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69cb8bb009c85488087787e2ea626b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742012959194519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,6 +2726,7 @@ GameObject:
   - component: {fileID: 6877179905263743278}
   - component: {fileID: 7010659467231077050}
   - component: {fileID: 5029303599938337052}
+  - component: {fileID: 4608742013356761164}
   m_Layer: 0
   m_Name: Spider sign
   m_TagString: Untagged
@@ -2629,6 +2734,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013356761164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013356761163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90932949965294167b01e1ed3541eac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013438349704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +2759,7 @@ GameObject:
   - component: {fileID: 6877179905140195565}
   - component: {fileID: 7010659467380167545}
   - component: {fileID: 5029303599806531807}
+  - component: {fileID: 4608742013438349705}
   m_Layer: 0
   m_Name: finch sign
   m_TagString: Untagged
@@ -2649,6 +2767,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013438349705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013438349704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aacde6e0d54394b4e94b94e41cb8e5c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013518349412
 GameObject:
   m_ObjectHideFlags: 0
@@ -2662,6 +2792,7 @@ GameObject:
   - component: {fileID: 6877179904951145729}
   - component: {fileID: 7010659467057153685}
   - component: {fileID: 5029303600162577715}
+  - component: {fileID: 4608742013518349413}
   m_Layer: 0
   m_Name: Bat sign
   m_TagString: Untagged
@@ -2669,6 +2800,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013518349413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013518349412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b31af9aac84740969b14f933105ae74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013521974737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2682,6 +2825,7 @@ GameObject:
   - component: {fileID: 6877179904955909300}
   - component: {fileID: 7010659467060614944}
   - component: {fileID: 5029303600158067846}
+  - component: {fileID: 4608742013521974738}
   m_Layer: 0
   m_Name: Stingray sign
   m_TagString: Untagged
@@ -2689,6 +2833,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013521974738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013521974737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe164fbfb3f7649168e6d287f3ea494b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013608690956
 GameObject:
   m_ObjectHideFlags: 0
