@@ -1150,7 +1150,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.9647059, b: 0.2784314, a: 1}
+    m_NormalColor: {r: 0.94708157, g: 1, b: 0, a: 1}
     m_HighlightedColor: {r: 0.98154426, g: 1, b: 0.6179246, a: 1}
     m_PressedColor: {r: 0.764151, g: 0.7280082, b: 0.025231415, a: 1}
     m_SelectedColor: {r: 1, g: 0.9647059, b: 0.2784314, a: 1}
@@ -1257,8 +1257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.1, y: 3.6}
+  m_SizeDelta: {x: 450, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918123706
 MonoBehaviour:
@@ -1293,7 +1293,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THIS IS SOME TEXT
+  m_Text: 'THIS IS SOME TEXT
+
+    fasdas
+
+    asdasdasdas'
 --- !u!222 &918123707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1478,7 +1482,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 450, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178642261
 MonoBehaviour:
@@ -2575,7 +2579,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 450, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699298805
 MonoBehaviour:
