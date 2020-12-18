@@ -11,11 +11,11 @@ public class CharControl_2 : MonoBehaviour
     public float acc = 5.0f;
     public float dec = 5.0f;
     public float rotation = 0.0f;
-
+    Animator anim;
 
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
     void Update()
     {
