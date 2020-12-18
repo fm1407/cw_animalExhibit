@@ -809,7 +809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '-  Pterandon  - '
+  m_Text: '-  Great Tit - '
 --- !u!222 &852040217
 CanvasRenderer:
   m_ObjectHideFlags: 0

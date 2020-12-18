@@ -5,58 +5,61 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MAIN/Scenes/1ST POV SCENESE/TEMPLATE/template.unity
     guid: 69df730527a14433da2ed70915a98ccb
-  - enabled: 1
-    path: Assets/MAIN/Scenes/Main.unity
-    guid: ec1fe67bf0ea3400dba6a3583bae6ea3
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/dolphin/dolphin.unity
-    guid: 189cfd093e0d2416f8531e89d8614f91
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/goldfish/goldfish.unity
-    guid: 53d8269930b9141cab97b42e50b18690
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/megalodon/megalodon.unity
-    guid: 2fc11fbdacd1b4b308c614b74092d47c
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/stingray/stingray.unity
-    guid: 26361bef21c4740398e66e0b35e9180d
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/collared_dove/collared_dove.unity
-    guid: 8de9f3beab13d45f3a25ebcb2c1e3277
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/finch/finch.unity
-    guid: 3a45ce9a04209491abeccb00fc3544a0
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/greattit/greattit.unity
     guid: 994645f6d4b24400ca956b706ccb3076
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/robin/robin.unity
-    guid: 0d9f30bb79029437bb44045beb62b6f5
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/ant/ant.unity
-    guid: 2796f6a72437b4b668be6f50f0c343d0
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/bat/bat.unity
     guid: 3409be1eee57f4df58a3d4f046a0a73c
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/snake/snake.unity
-    guid: 3dacc48927762421a9c3eba98c3ee550
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/spider/spider.unity
-    guid: 5618b6b1860ff4ac68d9e7d8bb04bb4c
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/MAIN/Scenes/1ST POV SCENESE/DINOs/pterandon/ptera.unity
     guid: a84837840798e4fd9b0cf39dedeb68fe
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/DINOs/spinosaurus/spino.unity
-    guid: 90f7d550e1cda464b95304033de0220b
-  - enabled: 1
-    path: Assets/MAIN/Scenes/1ST POV SCENESE/DINOs/trex/trex.unity
-    guid: 9b262b9e5d70d4762bb583faf6d7208b
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/MAIN/Scenes/1ST POV SCENESE/DINOs/triceratops/tricera.unity
-    guid: 8d8078c9b9f9d451098d21bf213ef3eb
+    guid: d6d6cc3bf8a4c4610ab02b6dccd81a38
   m_configObjects: {}
