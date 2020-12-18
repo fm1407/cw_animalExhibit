@@ -202,24 +202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599489}
   m_CullTransparentMesh: 0
---- !u!1 &40413565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-  m_PrefabInstance: {fileID: 1548082269459503994}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &40413566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40413565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 750422695}
 --- !u!1 &85310710
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +285,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5.807, y: 0, z: 0}
+--- !u!1001 &237594530
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 435
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 87
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+      propertyPath: m_Name
+      value: Pteranodon Longiceps
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
 --- !u!1 &265242234
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,8 +789,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 939024904}
   m_HandleRect: {fileID: 1988875237}
   m_Direction: 0
-  m_MinValue: -60
-  m_MaxValue: 300
+  m_MinValue: -40
+  m_MaxValue: 320
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -827,7 +866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '-  Pterandon  - '
+  m_Text: '-  Pterandon - '
 --- !u!222 &852040217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1165,6 +1204,8 @@ GameObject:
   - component: {fileID: 904945605}
   - component: {fileID: 904945604}
   - component: {fileID: 904945607}
+  - component: {fileID: 904945608}
+  - component: {fileID: 904945609}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -1235,13 +1276,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 904945607}
-        m_TargetAssemblyTypeName: TemplateToMain, Assembly-CSharp
-        m_MethodName: SceneSwitcher
-        m_Mode: 1
+      - m_Target: {fileID: 269511245}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: PlayOneShot
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8300000, guid: 951abb0b151884f9cb020ebac73465bd, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1286,6 +1327,30 @@ CanvasRenderer:
   m_GameObject: {fileID: 904945602}
   m_CullTransparentMesh: 0
 --- !u!114 &904945607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904945602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f37b69da84ad45e1a36a5d9739d35c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &904945608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904945602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f37b69da84ad45e1a36a5d9739d35c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &904945609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2763,6 +2828,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701559551}
   m_CullTransparentMesh: 0
+--- !u!1 &1864948767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
+  m_PrefabInstance: {fileID: 237594530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1864948768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864948767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 750422695}
 --- !u!1 &1901604437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,60 +3205,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!1001 &1548082269459503994
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 435.34137
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 87
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -35.415066
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.09652551
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9951119
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.013316629
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.016059307
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.341
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -178.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -11.104
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_Name
-      value: Pteranodon Longiceps
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
