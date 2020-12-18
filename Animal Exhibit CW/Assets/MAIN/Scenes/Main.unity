@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &21201440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+  m_PrefabInstance: {fileID: 1680453541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &21201441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21201440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ce3c79cfffa48dc90cf941f3a6cb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &83273412
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +1004,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639547525}
   m_CullTransparentMesh: 0
+--- !u!1 &649732874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+  m_PrefabInstance: {fileID: 1258845357852828077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649732875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649732874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be34cc8b9818849b485a26a74a38ac1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &649732876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649732874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be34cc8b9818849b485a26a74a38ac1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &715831600
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,7 +2098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_Name
-      value: Animal Sign (1)
+      value: Animal Sign_tricera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
@@ -2326,7 +2372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_Name
-      value: Animal Sign (3)
+      value: Animal Sign _ptera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
@@ -2455,9 +2501,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5029303598657751909, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+      propertyPath: m_Size.x
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_Name
-      value: Animal Sign (2)
+      value: Animal Sign _spino
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
@@ -2718,6 +2768,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833316427}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1852368865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+  m_PrefabInstance: {fileID: 1397129819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1852368866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852368865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf757d2d29c7b47a98d55e5da2c37e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1872545762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+  m_PrefabInstance: {fileID: 1566627646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1872545763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872545762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19e8a6829f694ff4b9005c0ef2defa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1906454680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3574,7 +3658,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2596957777150666324, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.5
+      value: 76.77
       objectReference: {fileID: 0}
     - target: {fileID: 2596957777150666324, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3624,9 +3708,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6842419829589903193, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7467667925343028963, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
       propertyPath: m_Name
-      value: Animal Sign
+      value: Animal Sign_trex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24ec7b2f0a16a4f95b42daa5b1bfc89f, type: 3}
