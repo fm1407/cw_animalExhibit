@@ -2589,6 +2589,7 @@ GameObject:
   - component: {fileID: 6877179905669770482}
   - component: {fileID: 7010659466833837926}
   - component: {fileID: 5029303600338134208}
+  - component: {fileID: 4608742012959194520}
   m_Layer: 0
   m_Name: Spino Sign
   m_TagString: Untagged
@@ -2596,6 +2597,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742012959194520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742012959194519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ce3c79cfffa48dc90cf941f3a6cb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013356761163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,6 +2702,7 @@ GameObject:
   - component: {fileID: 6877179904978310249}
   - component: {fileID: 7010659466946627581}
   - component: {fileID: 5029303600190725211}
+  - component: {fileID: 4608742013608690957}
   m_Layer: 0
   m_Name: Ptera Sign
   m_TagString: Untagged
@@ -2696,6 +2710,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013608690957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013608690956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b19e8a6829f694ff4b9005c0ef2defa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4608742013644755049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,6 +2735,7 @@ GameObject:
   - component: {fileID: 6877179904808026380}
   - component: {fileID: 7010659467183461016}
   - component: {fileID: 5029303600020474174}
+  - component: {fileID: 4608742013644755050}
   m_Layer: 0
   m_Name: Tricera Sign
   m_TagString: Untagged
@@ -2716,6 +2743,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4608742013644755050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4608742013644755049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf757d2d29c7b47a98d55e5da2c37e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &5029303599039661748
 BoxCollider:
   m_ObjectHideFlags: 0
