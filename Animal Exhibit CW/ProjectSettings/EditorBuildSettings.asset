@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN/Scenes/1ST POV SCENESE/DINO/tricera/tricera.unity
     guid: 5c2cbd4642e244dea931cb85ad2e1a34
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/ant/ant.unity
+    guid: b425eec5baf7c4f35a76d9f52608ea1d
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/bat/bat.unity
+    guid: c184dc15d228746ecbe476a1631970cc
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/snake/snake.unity
+    guid: efef155899bea45cab82a459483e4478
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/spider/spider.unity
+    guid: 9f61c8dedb7ed4932802744acdcaefcc
   m_configObjects: {}

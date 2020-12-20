@@ -175,7 +175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: adb36c60a48574eedad167503ca28066, type: 2}
+  - {fileID: 2100000, guid: 5d1903112732346e5bb3e307a769ff3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- TRICERATOPS - '
+  m_Text: '- SPIDER - '
 --- !u!222 &109177893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -626,10 +626,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1663790098}
   m_HandleRect: {fileID: 960048105}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 360
+  m_MinValue: 180
+  m_MaxValue: 540
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -830,9 +830,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 2.9 \u2013 3 m\n\nLength: 7.9 \u2013 9 m\n\nWeight: 6,000 \u2013
-    12,000 kg\n\nRunning speed: 32 km/h\n\nFeatures: Bony frill and 3 horns, large
-    beak, short limbs, and large tail. \n"
+  m_Text: The anatomy of spiders includes many characteristics shared with other
+    arachnids. These characteristics include bodies divided into two tagmata (sections
+    or segments), eight jointed legs, no wings or antennae, the presence of chelicerae
+    and pedipalps, simple eyes, and an exoskeleton, which is periodically shed.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1052,63 +1053,93 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3941203357123743533, guid: d46289272b8c5478dbc0debe81ea32cd, type: 3}
   m_PrefabInstance: {fileID: 3941203356676867293}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &784045280
+--- !u!1001 &735000403
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.8
+      value: 32.59604
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 106.5
+      value: 85.643105
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30
+      value: 70
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.021391617
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9997712
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8536924483183557313, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 2.451
       objectReference: {fileID: 0}
-    - target: {fileID: 9021536038728622203, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
       propertyPath: m_Name
-      value: Triceratops Horridus
+      value: spider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+--- !u!1 &735000404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e82a66db3a4c98e46b70fc32b41727ba, type: 3}
+  m_PrefabInstance: {fileID: 735000403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &735000405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735000404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 270048210}
 --- !u!1 &850326114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,7 +1278,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9bcd27b489b164d50b62924fe03d0e8c, type: 3}
-    m_FontSize: 25
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1258,12 +1289,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The first fossil was discovered in Denver, Colorado in 1887. The name
-    came after John Bell Hatcher found a nearly complete skull in Wyoming in 1888,
-    and Paleontologist Othniel Charles Marsh named the fossil as the Triceratops.
-    The name Triceratops means \u201Cthree-horned face\u201D. \n\nThese herbivores
-    lived in the Late Cretaceous period ( 83.5 - 66 million years ago) located in
-    North America. "
+  m_Text: "They have more legs and different body parts than insects, and they also
+    don\u2019t move around in the same way insects do. Spiders are in the arachnid
+    class, but not all arachnids are spiders. Most spiders use a web to catch their
+    prey, which is usually insects. The largest spider is the Goliath tarantula,
+    and they can catch birds. The smallest spider in the world is less than 1mm long!\n\nOne
+    of the ways spiders use silk is to create webs, which catch prey. There are a
+    few different kinds of spider webs, such as orbs, funnels and sheets. However,
+    not all spiders catch their prey in webs \u2013 some hide and wait for insects
+    to come by.\n"
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1640,8 +1674,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Ceratopsidae \n\nGenus: 
-    Triceratops\n\nSpecies:  Triceratops horridus\n"
+  m_Text: "Kingdom:  Animalia\n\nPhylum:  Arthropoda\n\nSubphylum:  Chelicerata\n\nClass:\tArachnida\n\nOrder:\tAraneae"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1978,24 +2011,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235163111}
   m_CullTransparentMesh: 0
---- !u!1 &1269926816 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9021536038728622203, guid: 0d400e3b57011421e8a81cd52030431f, type: 3}
-  m_PrefabInstance: {fileID: 784045280}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1269926817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269926816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 270048210}
 --- !u!1001 &1431599002
 PrefabInstance:
   m_ObjectHideFlags: 0

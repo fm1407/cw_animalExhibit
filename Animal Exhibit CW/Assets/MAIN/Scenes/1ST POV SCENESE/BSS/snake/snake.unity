@@ -175,7 +175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: adb36c60a48574eedad167503ca28066, type: 2}
+  - {fileID: 2100000, guid: 5d1903112732346e5bb3e307a769ff3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- PTERANDON - '
+  m_Text: '- SNAKE - '
 --- !u!222 &109177893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -626,10 +626,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1663790098}
   m_HandleRect: {fileID: 960048105}
   m_Direction: 0
-  m_MinValue: -20
-  m_MaxValue: 340
+  m_MinValue: 200
+  m_MaxValue: 560
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -760,63 +760,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &457228399
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 76.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1488331064110773402, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-      propertyPath: m_Name
-      value: Pteranodon Longiceps
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
 --- !u!1 &471270544
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,9 +830,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 1.8 m\n\nLength: 2m\n\nWingspan: 3.8 - 5.6m \n\nWeight: 20 - 93
-    kg \n\nFlying speed: 108 km/h\n\nFeatures: Toothless beak, crest on back of the
-    skull, wings, short tail, short hairs (pycnofibers), short toes.  \n"
+  m_Text: Snakes range in size from the size of a worm to many feet long. Their skin
+    contains scales that may be smooth or ridged. The scales on the belly (called
+    scutes) are thicker than those on the sides and back of a snake to provide protection
+    as it moves.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1109,6 +1053,93 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3941203357123743533, guid: d46289272b8c5478dbc0debe81ea32cd, type: 3}
   m_PrefabInstance: {fileID: 3941203356676867293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &847268352
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+      propertyPath: m_Name
+      value: snake
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+--- !u!1 &847268353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2400c5dfd97057849a50f2344220f721, type: 3}
+  m_PrefabInstance: {fileID: 847268352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &847268354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847268353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 270048210}
 --- !u!1 &850326114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,24 +1278,28 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9bcd27b489b164d50b62924fe03d0e8c, type: 3}
-    m_FontSize: 25
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 118
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Many Pteranodon fossils have been found in the USA (in Kansas) and in
-    England.The first Pteranodon skull was found on May 2, 1876, in Smoky Hill River,
-    Wallace County, Kansas, USA by S. W. Williston, a fossil collector working for
-    Othniel Marsh. Pteranodon was named by Othneil C. Marsh in 1876. The name Pteranodon
-    comes from Pteron(\u201CWing\u201D) and Andon(\u201CToothless\u201D). \n\nThis 
-    piscivorous creature lived in the  Late Cretaceous period (89.8 - 70.6 million
-    years ago) located in North America and Europe. "
+  m_Text: "There are more than 3,000 species of snakes on the planet and they\u2019re
+    found everywhere except in Antarctica, Iceland, Ireland, Greenland, and New Zealand.
+    About 600 species are venomous, and only about 200\u2014seven percent\u2014are
+    able to kill or significantly wound a human.\n\nSnakes have several other ways
+    to detect a snack. Openings called pit holes in front of their eyes sense the
+    heat given off by warm-blooded prey. And bones in their lower jaws pick up vibrations
+    from rodents and other scurrying animals. Snakes can eat animals up to three
+    times bigger than their head is wide because their lower jaws unhinge from their
+    upper jaws. \n\nAbout once a month snakes shed their skin, a process called ecdysis
+    that makes room for growth and gets rid of parasites. Most snakes lay eggs, but
+    some species\u2014like sea snakes\u2014give live birth to young.\n"
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1641,8 +1676,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Pteranodontidae\n\nGenus: 
-    Pteranodon\n\nSpecies:  Pteranodon longiceps"
+  m_Text: "Kingdom:  Animalia\n\nPhylum:\tChordata\n\nClass:  Reptilia\n\nClade: 
+    Ophidia\n\nSuborder:  Serpentes"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1979,24 +2014,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235163111}
   m_CullTransparentMesh: 0
---- !u!1 &1266217234 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2300298838770986528, guid: 72ab274ed76f64bd98f9446368284779, type: 3}
-  m_PrefabInstance: {fileID: 457228399}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1266217235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266217234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 270048210}
 --- !u!1001 &1431599002
 PrefabInstance:
   m_ObjectHideFlags: 0
