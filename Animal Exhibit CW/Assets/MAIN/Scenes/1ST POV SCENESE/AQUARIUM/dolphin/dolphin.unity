@@ -830,9 +830,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 1.8 m\n\nLength: 2m\n\nWingspan: 3.8 - 5.6m \n\nWeight: 20 - 93
-    kg \n\nFlying speed: 108 km/h\n\nFeatures: Toothless beak, crest on back of the
-    skull, wings, short tail, short hairs (pycnofibers), short toes.  \n"
+  m_Text: 'Dolphins have smooth, rubbery skin and are usually colored in some mixture
+    of black, white, and gray. They have two flippers, or fins, on their sides, as
+    well as a triangular fin on the back. Like other whales, they have an insulating
+    layer of blubber (fat) beneath the skin.
+
+'
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1201,13 +1204,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Many Pteranodon fossils have been found in the USA (in Kansas) and in
-    England.The first Pteranodon skull was found on May 2, 1876, in Smoky Hill River,
-    Wallace County, Kansas, USA by S. W. Williston, a fossil collector working for
-    Othniel Marsh. Pteranodon was named by Othneil C. Marsh in 1876. The name Pteranodon
-    comes from Pteron(\u201CWing\u201D) and Andon(\u201CToothless\u201D). \n\nThis 
-    piscivorous creature lived in the  Late Cretaceous period (89.8 - 70.6 million
-    years ago) located in North America and Europe. "
+  m_Text: "Dolphin\u2019s lifespan can vary from around 20 years from the small dolphin
+    species to around 80 years to the larger dolphins for example orcas. Dolphins
+    are marine mammals. They need surface to breathe air and also give birth to live
+    young. Dolphin pregnancy can last between 9 and 16 months. Dolphins eat fish,
+    crustaceans and squid. Orca (which is the killer whale) is the largest dolphin.
+    Dolphins also have vocalisations such as whistles, squeals and clicks which they
+    use for their communication and also echolocation skills."
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1584,8 +1587,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Pteranodontidae\n\nGenus: 
-    Pteranodon\n\nSpecies:  Pteranodon longiceps"
+  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nClass:\tMammalia\n\nInfraorder: 
+    Cetacea\n\nParvorder:  Odontoceti  "
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2792,31 +2795,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.822857
+      value: 48.03197
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 177.49207
+      value: 164.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.046687
+      value: 6.4927197
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.17363958
+      value: -0.078210235
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000054415308
+      value: -0.034969635
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0026544319
+      value: -0.0061611338
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98480576
+      value: 0.9963044
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_RootOrder
@@ -2824,15 +2827,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -19.999
+      value: -8.991
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.063
+      value: -3.989
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.32
+      value: -0.395
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b235692c6a150f541b7e77f234532dd0, type: 3}
       propertyPath: m_Name

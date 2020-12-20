@@ -626,10 +626,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1663790098}
   m_HandleRect: {fileID: 960048105}
   m_Direction: 0
-  m_MinValue: -20
-  m_MaxValue: 340
+  m_MinValue: 180
+  m_MaxValue: 540
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 180
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -830,9 +830,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 1.8 m\n\nLength: 2m\n\nWingspan: 3.8 - 5.6m \n\nWeight: 20 - 93
-    kg \n\nFlying speed: 108 km/h\n\nFeatures: Toothless beak, crest on back of the
-    skull, wings, short tail, short hairs (pycnofibers), short toes.  \n"
+  m_Text: Their flattened bodies are composed of pectoral fins joined to their head
+    and trunk with an infamous tail trailing behind. While the stingray's eyes peer
+    out from its dorsal side, its mouth, nostrils, and gill slits are situated on
+    its underbelly.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1201,13 +1202,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Many Pteranodon fossils have been found in the USA (in Kansas) and in
-    England.The first Pteranodon skull was found on May 2, 1876, in Smoky Hill River,
-    Wallace County, Kansas, USA by S. W. Williston, a fossil collector working for
-    Othniel Marsh. Pteranodon was named by Othneil C. Marsh in 1876. The name Pteranodon
-    comes from Pteron(\u201CWing\u201D) and Andon(\u201CToothless\u201D). \n\nThis 
-    piscivorous creature lived in the  Late Cretaceous period (89.8 - 70.6 million
-    years ago) located in North America and Europe. "
+  m_Text: "Stingray lifespan\u2019s are usually around 5 to 10 years. The largest
+    species of stingrays measure around 6.5 feed in length and can also weigh up
+    to 790 pounds. They are also closely related to sharks. Their long tails that
+    they have usually have a spine and a venom which is used to protect them from
+    predators. Stingrays eat clams, shrimp, and mussels. They don\u2019t use their
+    eyes to find their prey. They are solitary but they can also live in groups.
+    Stingrays give birth each year around 2 to 6 babies."
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1584,8 +1585,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Pteranodontidae\n\nGenus: 
-    Pteranodon\n\nSpecies:  Pteranodon longiceps"
+  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nClass: Chondrichthyes\n\nOrder:
+    Myliobatiformes\n\nSuborder: Myliobatoidei"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2828,11 +2829,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 17.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 161.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2869,6 +2870,18 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 63fee99321bd978409340541f83c6411, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 63fee99321bd978409340541f83c6411, type: 3}
       propertyPath: m_Name

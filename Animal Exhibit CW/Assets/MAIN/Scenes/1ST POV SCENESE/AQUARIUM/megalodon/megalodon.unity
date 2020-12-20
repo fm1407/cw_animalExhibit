@@ -626,10 +626,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1663790098}
   m_HandleRect: {fileID: 960048105}
   m_Direction: 0
-  m_MinValue: -20
-  m_MaxValue: 340
+  m_MinValue: 90
+  m_MaxValue: 450
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 90
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -830,9 +830,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 1.8 m\n\nLength: 2m\n\nWingspan: 3.8 - 5.6m \n\nWeight: 20 - 93
-    kg \n\nFlying speed: 108 km/h\n\nFeatures: Toothless beak, crest on back of the
-    skull, wings, short tail, short hairs (pycnofibers), short toes.  \n"
+  m_Text: "Because they never saw it in person, researchers can only speculate the
+    overall appearance of this shark. Many of them estimate its appearance was similar
+    to that of a great white shark. The most notable remains of this species are
+    the unbelievably large teeth it left behind. Some Megalodon teeth are larger
+    than an adult man\u2019s palm. These teeth filled a massive pair of jaws, and
+    fed an enormous body."
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1201,13 +1204,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Many Pteranodon fossils have been found in the USA (in Kansas) and in
-    England.The first Pteranodon skull was found on May 2, 1876, in Smoky Hill River,
-    Wallace County, Kansas, USA by S. W. Williston, a fossil collector working for
-    Othniel Marsh. Pteranodon was named by Othneil C. Marsh in 1876. The name Pteranodon
-    comes from Pteron(\u201CWing\u201D) and Andon(\u201CToothless\u201D). \n\nThis 
-    piscivorous creature lived in the  Late Cretaceous period (89.8 - 70.6 million
-    years ago) located in North America and Europe. "
+  m_Text: Megalodon is a member of an extinct species of the megatooth shark (Otodontid)
+    which is considered to be the largest shark that has ever lived. The fossils
+    attributed to the megalodon has been found from "Miocene Epoch" which was 23
+    million years ago and to the end of the Pliocene Epoch (which was about 2.6 million
+    years ago) The Megalodon ate whales for breakfast. It has to consume over a ton
+    of food per day in order for it to sustain itself.
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1584,8 +1586,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Pteranodontidae\n\nGenus: 
-    Pteranodon\n\nSpecies:  Pteranodon longiceps"
+  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nFamily:\t Otodontidae\n\nGenus:\t
+    Otodus\n\nSpecies: O. megalodon\n"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2792,31 +2794,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 42.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 132.73517
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.8964577
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.015371169
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.66103333
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.0129636
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7500871
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_RootOrder
@@ -2824,15 +2826,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -0.339
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -82.785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 2.279
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f7d93475b20f47a4296906ee78cf3650, type: 3}
       propertyPath: m_Name

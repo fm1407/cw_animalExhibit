@@ -626,10 +626,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1663790098}
   m_HandleRect: {fileID: 960048105}
   m_Direction: 0
-  m_MinValue: -20
-  m_MaxValue: 340
+  m_MinValue: 180
+  m_MaxValue: 540
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 180
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -830,9 +830,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Height: 1.8 m\n\nLength: 2m\n\nWingspan: 3.8 - 5.6m \n\nWeight: 20 - 93
-    kg \n\nFlying speed: 108 km/h\n\nFeatures: Toothless beak, crest on back of the
-    skull, wings, short tail, short hairs (pycnofibers), short toes.  \n"
+  m_Text: The common goldfish has two sets of paired fins - the pectoral fins and
+    pelvic fins, and three single fins- the dorsal, caudal, and anal fin. They lack
+    barbels on the upper jaw, and lack scales on the head. Goldfish have exceptionally
+    large eyes and acute senses of smell and hearing.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1191,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9bcd27b489b164d50b62924fe03d0e8c, type: 3}
-    m_FontSize: 25
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1201,13 +1202,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Many Pteranodon fossils have been found in the USA (in Kansas) and in
-    England.The first Pteranodon skull was found on May 2, 1876, in Smoky Hill River,
-    Wallace County, Kansas, USA by S. W. Williston, a fossil collector working for
-    Othniel Marsh. Pteranodon was named by Othneil C. Marsh in 1876. The name Pteranodon
-    comes from Pteron(\u201CWing\u201D) and Andon(\u201CToothless\u201D). \n\nThis 
-    piscivorous creature lived in the  Late Cretaceous period (89.8 - 70.6 million
-    years ago) located in North America and Europe. "
+  m_Text: "Goldfishes can live for around 10-20 years. Gold fishes are the most popular
+    aquarium fish in the world. Hundreds of millions of goldfish are sold every year
+    and this is more than dogs and cats combined. It\u2019s a myth that goldfishes
+    have a three second memory. Goldfish\u2019s colour turns into white when the
+    goldfish is in the dark. The world\u2019s longest goldfish is at 18.7 inches
+    from nose to tail which is bigger than the average cat size of 18 inches long
+    (without the tail). Having a goldfish inside a bowl for its home is very bad
+    since their water turns toxic really fast. "
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1512,7 +1514,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1099175105
 GameObject:
@@ -1584,8 +1586,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom:  Animalia \n\nPhylum:  Chordata\n\nFamily:  Pteranodontidae\n\nGenus: 
-    Pteranodon\n\nSpecies:  Pteranodon longiceps"
+  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nFamily:\tCyprinidae\n\nGenus:\tCarassius\n\nSpecies:
+    C. auratus"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1922,6 +1924,109 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235163111}
   m_CullTransparentMesh: 0
+--- !u!1001 &1414898836
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 93.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -7401767505703078578, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0686d2baf8dfe6d4d8218fcc730b47f7, type: 2}
+    - target: {fileID: 919132149155446097, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_Name
+      value: Goldfish
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282196184054358512, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0686d2baf8dfe6d4d8218fcc730b47f7, type: 2}
+    - target: {fileID: 5534807744375925247, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0686d2baf8dfe6d4d8218fcc730b47f7, type: 2}
+    - target: {fileID: 8048443757692034313, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0686d2baf8dfe6d4d8218fcc730b47f7, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+--- !u!1 &1414898837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e6cddd9f32965784582416a25e71e724, type: 3}
+  m_PrefabInstance: {fileID: 1414898836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1414898838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414898837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 270048210}
 --- !u!1001 &1431599002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2368,81 +2473,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525275703}
   m_CullTransparentMesh: 0
---- !u!1001 &1551115518
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3973075053110414346, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_Name
-      value: Goldfish (Use this)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 245.31297
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.3186264
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -878.14087
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352977638938941104, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
---- !u!1 &1551115519 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3973075053110414346, guid: e052f4b9b70fd794c862e33f02890791, type: 3}
-  m_PrefabInstance: {fileID: 1551115518}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1551115520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551115519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 270048210}
 --- !u!1 &1574984649
 GameObject:
   m_ObjectHideFlags: 0
