@@ -408,7 +408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- ROBIN - '
+  m_Text: '- GOLDFINCH - '
 --- !u!222 &109177893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -830,10 +830,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The robin is a small, plump bird. Its black beak is short and thin. Males
-    and females look identical, sporting a brown back, white belly and red breast,
-    face and cheeks. In contrast, young robins  are speckled gold and brown, only
-    developing the distinctive red belly in adulthood.
+  m_Text: During mating season the male goldfinch has a bright yellow body, black
+    wings with white stripes, a black cap on its head, and a white rump. Females
+    and winter males have duller feathers that are an olive-yellow color. The male's
+    black cap may disappear in the winter or turn a dull black.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1132,6 +1132,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850326114}
   m_CullTransparentMesh: 0
+--- !u!1001 &876225696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 131.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+      propertyPath: m_Name
+      value: Finch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+--- !u!1 &876225697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bcc135cac067d4fdbadf2c83a579a555, type: 3}
+  m_PrefabInstance: {fileID: 876225696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &876225698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876225697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 270048210}
 --- !u!1 &890227141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,17 +1277,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The UK''s favourite bird - with its bright red breast it is familiar throughout
-    the year and especially at Christmas! Males and females look identical, and young
-    birds have no red breast and are spotted with golden brown. Robins sing nearly
-    all year round and despite their cute appearance, they are aggressively territorial
-    and are quick to drive away intruders. They will sing at night next to street
-    lights.
+  m_Text: 'The goldfinch is a highly coloured finch with a bright red face and yellow
+    wing patch. Sociable, often breeding in loose colonies, they have a delightful
+    liquid twittering song and call. Their long fine beaks allow them to extract
+    otherwise inaccessible seeds from thistles and teasels. Increasingly they are
+    visiting bird tables and feeders. In winter many UK goldfinches migrate as far
+    south as Spain.
 
 
-    What they eat: Worms, seeds, fruits, insects and other invertebrates.
-
-'
+    What they eat: Seeds and insects in summer.'
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1589,8 +1662,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nFamily: Muscicapidae\n\nGenus:
-    Erithacus\n\nSpecies: E. rubecula"
+  m_Text: "Kingdom:  Animalia\n\nPhylum:\tChordata\n\nFamily:\tFringillidae\n\nGenus:\tCarduelis\n\nSpecies: 
+    C. carduelis"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1927,81 +2000,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235163111}
   m_CullTransparentMesh: 0
---- !u!1001 &1407182893
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 25.3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 131.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_Name
-      value: Robin
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
---- !u!1 &1407182894 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-  m_PrefabInstance: {fileID: 1407182893}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1407182895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407182894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 270048210}
 --- !u!1001 &1431599002
 PrefabInstance:
   m_ObjectHideFlags: 0

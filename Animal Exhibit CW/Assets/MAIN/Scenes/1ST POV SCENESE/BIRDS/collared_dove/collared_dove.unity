@@ -408,7 +408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- ROBIN - '
+  m_Text: '- COLLARED DOVE - '
 --- !u!222 &109177893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -830,10 +830,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The robin is a small, plump bird. Its black beak is short and thin. Males
-    and females look identical, sporting a brown back, white belly and red breast,
-    face and cheeks. In contrast, young robins  are speckled gold and brown, only
-    developing the distinctive red belly in adulthood.
+  m_Text: Collared doves are a pale, pinky-brown grey colour, with a distinctive
+    black neck collar (as the name suggests). They have deep red eyes and reddish
+    feet. Collared doves are smaller and more delicate-looking than woodpigeons,
+    with creamy grey-buff plumage. Adults have a black half-collar on the back of
+    their necks.
 --- !u!222 &471270547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1202,17 +1203,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The UK''s favourite bird - with its bright red breast it is familiar throughout
-    the year and especially at Christmas! Males and females look identical, and young
-    birds have no red breast and are spotted with golden brown. Robins sing nearly
-    all year round and despite their cute appearance, they are aggressively territorial
-    and are quick to drive away intruders. They will sing at night next to street
-    lights.
-
-
-    What they eat: Worms, seeds, fruits, insects and other invertebrates.
-
-'
+  m_Text: "Collared doves have only lived and bred in the UK for a few decades, but
+    they weren\u2019t introduced \u2013 they spread to new areas on their own, as
+    their young have a tendency to disperse far and wide. Their monotonous cooing
+    will be a familiar sound to many of you. Although you'll often see them on their
+    own or in pairs, flocks may form where there is a lot of food available.\n\nWhat
+    they eat: Seeds, grains, buds and shoots.\n"
 --- !u!222 &890227144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1519,6 +1515,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1068511910
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 131.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+      propertyPath: m_Name
+      value: CollardedDove
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+--- !u!1 &1068511911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dd824a16e0b6d47b9a75a2f2e511a88e, type: 3}
+  m_PrefabInstance: {fileID: 1068511910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1068511912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068511911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 270048210}
 --- !u!1 &1099175105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,8 +1660,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nFamily: Muscicapidae\n\nGenus:
-    Erithacus\n\nSpecies: E. rubecula"
+  m_Text: "Kingdom: Animalia\n\nPhylum:\tChordata\n\nFamily:\tColumbidae\n\nGenus:\tStreptopelia\n\nSpecies:
+    S. decaocto"
 --- !u!222 &1099175108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1927,81 +1998,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235163111}
   m_CullTransparentMesh: 0
---- !u!1001 &1407182893
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 25.3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 131.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-      propertyPath: m_Name
-      value: Robin
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
---- !u!1 &1407182894 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99d8ac80640b14547acec63ed65d6105, type: 3}
-  m_PrefabInstance: {fileID: 1407182893}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1407182895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1407182894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b7cf9044943f84da79c8494f9bb80f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 270048210}
 --- !u!1001 &1431599002
 PrefabInstance:
   m_ObjectHideFlags: 0

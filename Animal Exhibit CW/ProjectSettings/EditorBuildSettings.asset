@@ -35,4 +35,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN/Scenes/1ST POV SCENESE/BSS/spider/spider.unity
     guid: 9f61c8dedb7ed4932802744acdcaefcc
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/collared_dove/collared_dove.unity
+    guid: a333836d2c76341b7acf52848cdc07f4
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/finch/finch.unity
+    guid: ccdb597bf0b48453794224ea64b59b87
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/great_tit/great_tit.unity
+    guid: 858a8fcd3c6124462aa3e003c60284a5
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/robin/robin.unity
+    guid: 06ba75a50de624fefab615c2cb4227a6
   m_configObjects: {}
