@@ -47,4 +47,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN/Scenes/1ST POV SCENESE/BIRDS/robin/robin.unity
     guid: 06ba75a50de624fefab615c2cb4227a6
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/dolphin/dolphin.unity
+    guid: cab3a6eb795904ec292e5f3ec6b8c9c0
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/goldfish/goldfish.unity
+    guid: 159028ccc03564ddba5ede33b0489ba8
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/megalodon/megalodon.unity
+    guid: aae97df57237a43bead818a2b7161eaa
+  - enabled: 1
+    path: Assets/MAIN/Scenes/1ST POV SCENESE/AQUARIUM/stingray/stingray.unity
+    guid: 1a8e67cddb24d4c91a17e8364bfffcc3
   m_configObjects: {}
