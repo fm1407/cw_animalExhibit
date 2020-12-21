@@ -34,11 +34,10 @@ public class CharControl_2 : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Rotate(0, -0.5f, 0);
-
         }
         if (Input.GetKey(KeyCode.RightArrow))
-        {
+         {
             transform.Rotate(0, 0.5f, 0);
-        }
+         }
     }
 }
