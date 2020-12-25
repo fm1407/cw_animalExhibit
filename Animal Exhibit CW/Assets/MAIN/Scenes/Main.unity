@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 31.7
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 13929a56c357c48e2906060547ff8099, type: 2}
 --- !u!1 &2345077
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +733,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
+      propertyPath: m_TagString
+      value: GameController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
@@ -4429,6 +4433,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d47e0e5a16307624fba32cbccbdae0f8, type: 3}
 --- !u!1 &853595155
@@ -6665,7 +6673,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363526824}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dc64c165f62644d295b11edfbd42227, type: 3}
   m_Name: 
@@ -6693,7 +6701,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363526824}
-  m_Enabled: 0
+  m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
@@ -8516,15 +8524,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 55.60764
+      value: 58.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.9700003
+      value: 3.0600004
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -144.27634
+      value: -169.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8532,7 +8540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.80641645
+      value: -0.018513149
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalRotation.z
@@ -8540,7 +8548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5913481
+      value: -0.9998287
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_RootOrder
@@ -8552,7 +8560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 252.505
+      value: 362.122
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6da7ec8b1e3e34deab622db5ce6b7309, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -11720,7 +11728,7 @@ GameObject:
   - component: {fileID: 4608742013608690957}
   m_Layer: 0
   m_Name: Ptera Sign
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12027,6 +12035,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6062358437263819707, guid: cfc86b307b719495697aaec8719eb323, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6062358438718308109, guid: cfc86b307b719495697aaec8719eb323, type: 3}
       propertyPath: m_Name
       value: building
@@ -12074,6 +12086,14 @@ PrefabInstance:
     - target: {fileID: 6062358438718308110, guid: cfc86b307b719495697aaec8719eb323, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062358439061752247, guid: cfc86b307b719495697aaec8719eb323, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062358439267570815, guid: cfc86b307b719495697aaec8719eb323, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfc86b307b719495697aaec8719eb323, type: 3}
