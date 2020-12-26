@@ -672,7 +672,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.72
+      value: 54.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalPosition.y
@@ -684,19 +684,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.72653276
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6871319
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_RootOrder
@@ -708,7 +708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 93.193
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b09ab4e1c0a854c70b7cd2d7434446da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -6327,8 +6327,10 @@ MonoBehaviour:
     arrow button on the side to see the next model. You can also rotate the model
     by using the slider below the model.\r You can also use the arrow left '<' and
     right '>' to rotate the character and also use '^' to move forward so that you
-    can move around the exhibition.\n\nAfter you close this message, please press
-    'G' on your keyboard to change the camera view to third person."
+    can move around the exhibition. The 'WASD' keyboard inputs also work aswell.
+    'W' to move forward, 'A' to rotate left, 'D' to rotate right, and 'S' to move
+    backwards.\n\nAfter you close this message, please press 'G' on your keyboard
+    to change the camera view to third person."
 --- !u!222 &1221626466
 CanvasRenderer:
   m_ObjectHideFlags: 0
